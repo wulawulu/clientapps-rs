@@ -2008,6 +2008,7 @@ dependencies = [
  "anyhow",
  "chrono",
  "dioxus",
+ "dioxus-logger",
  "futures",
  "reqwest",
  "serde",
