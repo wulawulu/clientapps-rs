@@ -1,7 +1,10 @@
 {
     "cSpell.words": [
         "chrono",
-        "dioxus",
         "reqwest"
-    ]
+    ],
+    "tailwindCSS.experimental.classRegex": ["class: \"(.*)\""],
+    "tailwindCSS.includeLanguages": {
+        "rust": "html"
+    }
 }
