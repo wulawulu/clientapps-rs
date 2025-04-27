@@ -1,6 +1,13 @@
 // Prevents additional console window on Windows in release, DO NOT REMOVE!!
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
-fn main() {
-    app_lib::run();
+use anyhow::Result;
+use hn::app;
+
+fn main() -> Result<()> {
+    app()?
+        .run(tauri::generate_context!())
+        .expect("error while running tauri application");
+
+    Ok(())
 }

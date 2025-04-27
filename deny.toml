@@ -112,6 +112,7 @@ allow = [
   "CC0-1.0",
   "Zlib",
   "Apache-2.0 WITH LLVM-exception",
+  "BSL-1.0",                        # Boost Software License 1.0, used by clipboard-win v5.3.1
 ]
 unused-allowed-license = "allow"
 # The confidence threshold for detecting a license from license text.
