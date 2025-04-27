@@ -1,5 +1,5 @@
 [workspace]
-members = ["hacker_news"]
+members = ["hacker_news","src-tauri"]
 resolver = "2"
 
 [profile]
